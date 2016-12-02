@@ -1,0 +1,63 @@
+C:\CodematicDemo\FDS\FDS\bin\Debug\FDS.exe
+C:\CodematicDemo\FDS\FDS\bin\Debug\FDS.pdb
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.Form1.resources
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.Properties.Resources.resources
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.csproj.GenerateResource.Cache
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.exe
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.pdb
+C:\CodematicDemo\FDS\FDS\bin\Debug\fds.Model.dll
+C:\CodematicDemo\FDS\FDS\bin\Debug\fds.Model.pdb
+C:\CodematicDemo\FDS\FDS\obj\x86\Debug\FDS.csprojResolveAssemblyReference.cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\FDS.exe.config
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\FDS.exe
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\FDS.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.BLL.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.Model.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.DAL.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\COM.Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\OpenSmtp.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.DBUtility.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\IBatisNet.DataMapper.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\IBatisNet.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\System.Data.SQLite.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.BLL.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.Common.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.Model.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.DAL.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\bin\Debug\fds.DBUtility.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.csprojResolveAssemblyReference.cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.csproj.ResolveComReference.cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.AboutFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailureTreeAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailureTreeEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailureTreeFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FaultHistoryAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FaultHistoryDetailsFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FaultHistoryEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.PlaneTypeMngFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.PlnTypAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.PrintPreviewForm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.RestoreDataFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.UserEditMyPwd.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FaultHistoryForm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.LoginForm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.MainForm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.Properties.Resources.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.UserAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.UserEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.UserEditPwdFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.UserMngFrom.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailureTreeDetailFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.WelcomeFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.PlnTypEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.TimePointMngFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.TimePointAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.TimePointEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailSystemAddFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailSystemEditFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.FailSystemMngFrm.resources
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\fds.csproj.GenerateResource.Cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\FDS.exe
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\FDS\obj\x86\Debug\FDS.pdb

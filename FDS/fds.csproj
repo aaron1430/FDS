@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29BCECE5-1B78-4CD2-BE91-1EB710C826A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fds</RootNamespace>
+    <AssemblyName>FDS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>system_diagnosis_128px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words, Version=9.7.0.0, Culture=neutral, PublicKeyToken=586edb5723016262, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisSkin4, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=127be25a6db25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutFrm.Designer.cs">
+      <DependentUpon>AboutFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="constants.cs" />
+    <Compile Include="FailureTreeAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailureTreeAddFrm.Designer.cs">
+      <DependentUpon>FailureTreeAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailureTreeEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailureTreeEditFrm.Designer.cs">
+      <DependentUpon>FailureTreeEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailureTreeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailureTreeFrm.Designer.cs">
+      <DependentUpon>FailureTreeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultHistoryAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultHistoryAddFrm.Designer.cs">
+      <DependentUpon>FaultHistoryAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultHistoryDetailsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultHistoryDetailsFrm.Designer.cs">
+      <DependentUpon>FaultHistoryDetailsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultHistoryEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultHistoryEditFrm.Designer.cs">
+      <DependentUpon>FaultHistoryEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaneTypeMngFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaneTypeMngFrm.Designer.cs">
+      <DependentUpon>PlaneTypeMngFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlnTypAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlnTypAddFrm.Designer.cs">
+      <DependentUpon>PlnTypAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPreviewForm.Designer.cs">
+      <DependentUpon>PrintPreviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreDataFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreDataFrm.Designer.cs">
+      <DependentUpon>RestoreDataFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserEditMyPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEditMyPwd.Designer.cs">
+      <DependentUpon>UserEditMyPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultHistoryForm.Designer.cs">
+      <DependentUpon>FaultHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAddFrm.Designer.cs">
+      <DependentUpon>UserAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEditFrm.Designer.cs">
+      <DependentUpon>UserEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserEditPwdFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEditPwdFrm.Designer.cs">
+      <DependentUpon>UserEditPwdFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMngFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMngFrom.Designer.cs">
+      <DependentUpon>UserMngFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailureTreeDetailFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailureTreeDetailFrm.Designer.cs">
+      <DependentUpon>FailureTreeDetailFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeFrm.Designer.cs">
+      <DependentUpon>WelcomeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlnTypEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlnTypEditFrm.Designer.cs">
+      <DependentUpon>PlnTypEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimePointMngFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimePointMngFrm.Designer.cs">
+      <DependentUpon>TimePointMngFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimePointAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimePointAddFrm.Designer.cs">
+      <DependentUpon>TimePointAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimePointEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimePointEditFrm.Designer.cs">
+      <DependentUpon>TimePointEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailSystemAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailSystemAddFrm.Designer.cs">
+      <DependentUpon>FailSystemAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailSystemEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailSystemEditFrm.Designer.cs">
+      <DependentUpon>FailSystemEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailSystemMngFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailSystemMngFrm.Designer.cs">
+      <DependentUpon>FailSystemMngFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutFrm.resx">
+      <DependentUpon>AboutFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailureTreeAddFrm.resx">
+      <DependentUpon>FailureTreeAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailureTreeEditFrm.resx">
+      <DependentUpon>FailureTreeEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailureTreeFrm.resx">
+      <DependentUpon>FailureTreeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultHistoryAddFrm.resx">
+      <DependentUpon>FaultHistoryAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultHistoryDetailsFrm.resx">
+      <DependentUpon>FaultHistoryDetailsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultHistoryEditFrm.resx">
+      <DependentUpon>FaultHistoryEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaneTypeMngFrm.resx">
+      <DependentUpon>PlaneTypeMngFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlnTypAddFrm.resx">
+      <DependentUpon>PlnTypAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPreviewForm.resx">
+      <DependentUpon>PrintPreviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreDataFrm.resx">
+      <DependentUpon>RestoreDataFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEditMyPwd.resx">
+      <DependentUpon>UserEditMyPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultHistoryForm.resx">
+      <DependentUpon>FaultHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserAddFrm.resx">
+      <DependentUpon>UserAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEditFrm.resx">
+      <DependentUpon>UserEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEditPwdFrm.resx">
+      <DependentUpon>UserEditPwdFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMngFrom.resx">
+      <DependentUpon>UserMngFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailureTreeDetailFrm.resx">
+      <DependentUpon>FailureTreeDetailFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeFrm.resx">
+      <DependentUpon>WelcomeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlnTypEditFrm.resx">
+      <DependentUpon>PlnTypEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimePointMngFrm.resx">
+      <DependentUpon>TimePointMngFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimePointAddFrm.resx">
+      <DependentUpon>TimePointAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimePointEditFrm.resx">
+      <DependentUpon>TimePointEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailSystemAddFrm.resx">
+      <DependentUpon>FailSystemAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailSystemEditFrm.resx">
+      <DependentUpon>FailSystemEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailSystemMngFrm.resx">
+      <DependentUpon>FailSystemMngFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.png" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\uploadImg.jpg" />
+    <None Include="Resources\中国飞行试验研究院.jpg" />
+    <None Include="Resources\故障树打印.jpg" />
+    <None Include="Resources\经验模式打印.jpg" />
+    <Content Include="system_diagnosis_128px.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

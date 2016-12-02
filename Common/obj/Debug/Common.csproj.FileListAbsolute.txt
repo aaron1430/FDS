@@ -1,0 +1,17 @@
+C:\CodematicDemo\FDS\Common\bin\Debug\fds.Common.dll
+C:\CodematicDemo\FDS\Common\bin\Debug\fds.Common.pdb
+C:\CodematicDemo\FDS\Common\bin\Debug\COM.Excel.dll
+C:\CodematicDemo\FDS\Common\bin\Debug\Excel.dll
+C:\CodematicDemo\FDS\Common\bin\Debug\OpenSmtp.dll
+C:\CodematicDemo\FDS\Common\bin\Debug\OWC10Chart.dll
+C:\CodematicDemo\FDS\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\CodematicDemo\FDS\Common\obj\Debug\fds.Common.dll
+C:\CodematicDemo\FDS\Common\obj\Debug\fds.Common.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\fds.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\fds.Common.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\COM.Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\OpenSmtp.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\bin\Debug\OWC10Chart.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\obj\Debug\fds.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Common\obj\Debug\fds.Common.pdb

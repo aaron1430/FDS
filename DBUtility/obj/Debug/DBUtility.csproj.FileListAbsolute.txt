@@ -1,0 +1,17 @@
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\fds.DBUtility.dll
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\fds.DBUtility.pdb
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\IBatisNet.Common.dll
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\MySql.Data.dll
+C:\CodematicDemo\FDS\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\CodematicDemo\FDS\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\CodematicDemo\FDS\DBUtility\obj\Debug\fds.DBUtility.dll
+C:\CodematicDemo\FDS\DBUtility\obj\Debug\fds.DBUtility.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\fds.DBUtility.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\fds.DBUtility.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\IBatisNet.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\MySql.Data.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\bin\Debug\System.Data.SQLite.DLL
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\obj\Debug\fds.DBUtility.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DBUtility\obj\Debug\fds.DBUtility.pdb

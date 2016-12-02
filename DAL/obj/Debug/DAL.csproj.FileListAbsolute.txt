@@ -1,0 +1,36 @@
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.DAL.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.DAL.pdb
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.Common.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.DBUtility.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.Model.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\MySql.Data.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\OpenSmtp.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\Excel.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\COM.Excel.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\IBatisNet.DataMapper.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\IBatisNet.Common.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\System.Data.SQLite.dll
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.Common.pdb
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.DBUtility.pdb
+C:\CodematicDemo\FDS\DAL\bin\Debug\fds.Model.pdb
+C:\CodematicDemo\FDS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\CodematicDemo\FDS\DAL\obj\Debug\fds.DAL.dll
+C:\CodematicDemo\FDS\DAL\obj\Debug\fds.DAL.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.DAL.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.DAL.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.DBUtility.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.Model.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\MySql.Data.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\COM.Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\OpenSmtp.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\IBatisNet.DataMapper.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\IBatisNet.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\System.Data.SQLite.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.Common.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.DBUtility.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\bin\Debug\fds.Model.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\obj\Debug\fds.DAL.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\DAL\obj\Debug\fds.DAL.pdb

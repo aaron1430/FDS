@@ -1,0 +1,14 @@
+C:\CodematicDemo\FDS\Model\bin\Debug\fds.Model.dll
+C:\CodematicDemo\FDS\Model\bin\Debug\fds.Model.pdb
+C:\CodematicDemo\FDS\Model\obj\Debug\fds.Model.dll
+C:\CodematicDemo\FDS\Model\obj\Debug\fds.Model.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\fds.Model.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\fds.Model.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\fds.Common.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\COM.Excel.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\OpenSmtp.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\bin\Debug\fds.Common.pdb
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\obj\Debug\fds.Model.dll
+D:\库\My Documents\工作\自己玩儿\故障诊断\程序开发\FDS\Model\obj\Debug\fds.Model.pdb
