@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace fds
 {
@@ -221,6 +222,66 @@ namespace fds
                         MessageBox.Show("操作失败！");
                     }
                 }
+            }
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            if (listView1.Items.Count == 0)
+            {
+                MessageBox.Show("没有数据可导出！");
+                return;
+            }
+            string fileName = "";
+            string filePath = "";
+            SaveFileDialog SourceFileDialog = new SaveFileDialog();
+            SourceFileDialog.Filter = "Excel文件|*.xls|所有文件|*.*";
+            if (SourceFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                fileName = SourceFileDialog.FileName;
+                filePath = SourceFileDialog.FileName.Substring(0, fileName.LastIndexOf('\\') + 1);
+                if (!Directory.Exists(filePath + "事件序列图\\"))
+                {
+                    Directory.CreateDirectory(filePath + "事件序列图\\");
+                }
+                SourceFileDialog.Dispose();
+            }
+            else
+            {
+                SourceFileDialog.Dispose();
+                return;
+            }
+            DataTable dt = new DataTable();
+            dt.Columns.Add("序号");
+            dt.Columns.Add("案例编号");
+            dt.Columns.Add("飞机型号");
+            dt.Columns.Add("故障时机");
+            dt.Columns.Add("故障系统");
+            dt.Columns.Add("故障关键字");
+            dt.Columns.Add("事件序列图");
+            dt.Columns.Add("事件代号");
+            dt.Columns.Add("添加用户");
+            dt.Columns.Add("添加时间");
+            for (int i = 0; i < vftList.Count; i++)
+            {
+                DataRow dr = dt.NewRow();
+                dr[0] = i + 1;
+                dr[1] = vftList[i].ft_caseid;
+                dr[2] = vftList[i].ptype_name;
+                dr[3] = vftList[i].tpoint_value;
+                dr[4] = vftList[i].system_name;
+                dr[5] = vftList[i].ft_keywd;
+                dr[6] = vftList[i].ft_caseid + "-1";
+                dr[7] = vftList[i].ft_caseid + "-2";
+                dr[8] = vftList[i].user_name;
+                dr[9] = vftList[i].ft_addtime.ToString("yyyy-MM-dd HH:mm");
+                dt.Rows.Add(dr);
+                File.WriteAllBytes(filePath + "事件序列图\\" + vftList[i].ft_caseid + "-1.jpg", vftList[i].ft_pic);
+                File.WriteAllBytes(filePath + "事件序列图\\" + vftList[i].ft_caseid + "-2.jpg", vftList[i].ft_grid); //没有区分图片保存格式
+            }
+            if (NPOIHelper.Export(dt, "事件序列图", fileName))
+            {
+                MessageBox.Show("文件已保存至：\r\n" + fileName + "\r\n" + filePath + "事件序列图\\");
             }
         }
 

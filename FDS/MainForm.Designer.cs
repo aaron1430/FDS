@@ -47,7 +47,6 @@
             this.故障时机ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.重置数据库ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.帮助ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -57,7 +56,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1008, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(1065, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(165, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -72,7 +71,7 @@
             this.帮助ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1173, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1230, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -169,45 +168,38 @@
             // 飞机型号ToolStripMenuItem
             // 
             this.飞机型号ToolStripMenuItem.Name = "飞机型号ToolStripMenuItem";
-            this.飞机型号ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.飞机型号ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.飞机型号ToolStripMenuItem.Text = "飞机型号";
             this.飞机型号ToolStripMenuItem.Click += new System.EventHandler(this.飞机型号ToolStripMenuItem_Click);
             // 
             // 故障系统ToolStripMenuItem
             // 
             this.故障系统ToolStripMenuItem.Name = "故障系统ToolStripMenuItem";
-            this.故障系统ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.故障系统ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.故障系统ToolStripMenuItem.Text = "故障系统";
             this.故障系统ToolStripMenuItem.Click += new System.EventHandler(this.故障系统ToolStripMenuItem_Click);
             // 
             // 故障时机ToolStripMenuItem
             // 
             this.故障时机ToolStripMenuItem.Name = "故障时机ToolStripMenuItem";
-            this.故障时机ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.故障时机ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.故障时机ToolStripMenuItem.Text = "故障时机";
             this.故障时机ToolStripMenuItem.Click += new System.EventHandler(this.故障时机ToolStripMenuItem_Click);
             // 
             // 重置数据库ToolStripMenuItem
             // 
             this.重置数据库ToolStripMenuItem.Name = "重置数据库ToolStripMenuItem";
-            this.重置数据库ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.重置数据库ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.重置数据库ToolStripMenuItem.Text = "重置数据库";
             this.重置数据库ToolStripMenuItem.Click += new System.EventHandler(this.重置数据库ToolStripMenuItem_Click);
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.帮助ToolStripMenuItem1,
             this.关于ToolStripMenuItem});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
             this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.帮助ToolStripMenuItem.Text = "帮助";
-            // 
-            // 帮助ToolStripMenuItem1
-            // 
-            this.帮助ToolStripMenuItem1.Name = "帮助ToolStripMenuItem1";
-            this.帮助ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.帮助ToolStripMenuItem1.Text = "帮助";
+            this.帮助ToolStripMenuItem.Text = "关于";
             // 
             // 关于ToolStripMenuItem
             // 
@@ -221,7 +213,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1173, 617);
+            this.ClientSize = new System.Drawing.Size(1230, 617);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
@@ -259,7 +251,6 @@
         private System.Windows.Forms.ToolStripMenuItem 故障时机ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 重置数据库ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem;
 
 

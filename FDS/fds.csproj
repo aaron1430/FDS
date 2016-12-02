@@ -66,6 +66,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="NPOI, Version=2.1.3.1, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NPOI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -122,6 +126,7 @@
     <Compile Include="FaultHistoryEditFrm.Designer.cs">
       <DependentUpon>FaultHistoryEditFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NPOIHelper.cs" />
     <Compile Include="PlaneTypeMngFrm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -134,6 +134,7 @@ namespace fds
             Model.failure_tree addFhModel = new Model.failure_tree();
             addFhModel.ft_addtime = now;
             addFhModel.ft_adduser = constants.currentUser.user_id;
+            addFhModel.ft_caseid = ftBll.createCaseID(ftBll.getMaxCaseID());
             addFhModel.ft_keywd = txtKeyWds.Text.Trim();
             addFhModel.ft_pic = getImgToByte(picBxTree.Image);
             addFhModel.ft_grid = getImgToByte(picBxGrid.Image);

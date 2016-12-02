@@ -235,5 +235,67 @@ namespace fds
             }
         }
 
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            if (listView1.Items.Count == 0)
+            {
+                MessageBox.Show("没有数据可导出！");
+                return;
+            }
+            string fileName = "";
+            SaveFileDialog SourceFileDialog = new SaveFileDialog();
+            SourceFileDialog.Filter = "Excel文件|*.xls|所有文件|*.*";
+            if (SourceFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                fileName = SourceFileDialog.FileName;
+            }
+            else
+            {
+                return;
+            }
+            DataTable dt = new DataTable();
+            dt.Columns.Add("序号");
+            dt.Columns.Add("案例标题");
+            dt.Columns.Add("案例编号");
+            dt.Columns.Add("飞机型号");
+            dt.Columns.Add("故障时机");
+            dt.Columns.Add("故障系统");
+            dt.Columns.Add("故障关键字");
+            dt.Columns.Add("故障现象");
+            dt.Columns.Add("相关描述");
+            dt.Columns.Add("原因");
+            dt.Columns.Add("修理措施建议");
+            dt.Columns.Add("解释");
+            dt.Columns.Add("参考资料");
+            dt.Columns.Add("经验教训");
+            dt.Columns.Add("添加用户");
+            dt.Columns.Add("添加时间");
+            for (int i = 0; i < vfhList.Count; i++)
+            {
+                DataRow dr = dt.NewRow();
+                dr[0] = i + 1;
+                dr[1] = vfhList[i].fh_title;
+                dr[2] = vfhList[i].fh_caseid;
+                dr[3] = vfhList[i].ptype_name;
+                dr[4] = vfhList[i].tpoint_value;
+                dr[5] = vfhList[i].system_name;
+                dr[6] = vfhList[i].fh_keywd;
+                dr[7] = vfhList[i].fh_phenomenon;
+                dr[8] = vfhList[i].fh_description;
+                dr[9] = vfhList[i].fh_cause;
+                dr[10] = vfhList[i].fh_suggest;
+                dr[11] = vfhList[i].fh_explain;
+                dr[12] = vfhList[i].fh_reference;
+                dr[13] = vfhList[i].fh_experience;
+                dr[14] = vfhList[i].user_name;
+                dr[15] = vfhList[i].fh_addtime.ToString("yyyy-MM-dd HH:mm");
+                dt.Rows.Add(dr);
+            }
+            if (NPOIHelper.Export(dt, "案例推理诊断", fileName))
+            {
+                MessageBox.Show("文件已保存至：" + fileName);
+            }
+        }
+
     }
 }

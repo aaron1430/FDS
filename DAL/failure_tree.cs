@@ -380,7 +380,7 @@ namespace fds.DAL
 
         public string getMaxCaseID()
         {
-            string strsql = "select max(fh_caseid) from failure_tree";
+            string strsql = "select max(ft_caseid) from failure_tree";
             object obj = DbHelperMySQL.GetSingle(strsql);
             if (obj == null)
             {

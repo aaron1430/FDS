@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50529
 File Encoding         : 65001
 
-Date: 2016-11-30 17:28:21
+Date: 2016-12-02 16:49:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,6 +25,7 @@ CREATE TABLE `failure_tree` (
   `ptype_id` int(11) NOT NULL,
   `tpoint_id` int(11) NOT NULL,
   `system_id` int(11) NOT NULL,
+  `ft_caseid` varchar(128) DEFAULT NULL COMMENT '事件序列图ID',
   `ft_addtime` datetime NOT NULL COMMENT '添加时间',
   `ft_pic` longblob COMMENT '故障树图片',
   `ft_grid` longblob,
@@ -39,7 +40,7 @@ CREATE TABLE `failure_tree` (
   CONSTRAINT `FK_Reference_6` FOREIGN KEY (`ptype_id`) REFERENCES `plane_type` (`ptype_id`),
   CONSTRAINT `FK_Reference_7` FOREIGN KEY (`tpoint_id`) REFERENCES `time_point` (`tpoint_id`),
   CONSTRAINT `FK_Reference_8` FOREIGN KEY (`system_id`) REFERENCES `fail_system` (`system_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='故障树主表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='故障树主表';
 
 -- ----------------------------
 -- Table structure for fail_system
@@ -50,7 +51,7 @@ CREATE TABLE `fail_system` (
   `system_name` varchar(128) NOT NULL,
   `system_remark` varchar(256) DEFAULT NULL,
   PRIMARY KEY (`system_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='发生位置';
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='发生位置';
 
 -- ----------------------------
 -- Table structure for fault_history
@@ -82,7 +83,7 @@ CREATE TABLE `fault_history` (
   CONSTRAINT `fault_history_ibfk_2` FOREIGN KEY (`ptype_id`) REFERENCES `plane_type` (`ptype_id`),
   CONSTRAINT `fault_history_ibfk_3` FOREIGN KEY (`tpoint_id`) REFERENCES `time_point` (`tpoint_id`),
   CONSTRAINT `fault_history_ibfk_4` FOREIGN KEY (`system_id`) REFERENCES `fail_system` (`system_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='历史故障信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COMMENT='历史故障信息表';
 
 -- ----------------------------
 -- Table structure for plane_type
@@ -93,7 +94,7 @@ CREATE TABLE `plane_type` (
   `ptype_name` varchar(128) NOT NULL,
   `plane_remark` varchar(256) DEFAULT NULL,
   PRIMARY KEY (`ptype_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='飞机型号';
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='飞机型号';
 
 -- ----------------------------
 -- Table structure for time_point
@@ -104,7 +105,7 @@ CREATE TABLE `time_point` (
   `tpoint_value` varchar(128) NOT NULL,
   `tpoint_remark` varchar(256) DEFAULT NULL,
   PRIMARY KEY (`tpoint_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='故障发生时间';
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='故障发生时间';
 
 -- ----------------------------
 -- Table structure for user_info
@@ -139,7 +140,8 @@ plane_type.ptype_name,
 time_point.tpoint_value,
 fail_system.system_name,
 user_info.user_name,
-failure_tree.experience
+failure_tree.experience,
+failure_tree.ft_caseid
 FROM
 failure_tree
 LEFT JOIN plane_type ON failure_tree.ptype_id = plane_type.ptype_id
@@ -151,7 +153,7 @@ LEFT JOIN user_info ON failure_tree.ft_adduser = user_info.user_id ;
 -- View structure for v_fail_history
 -- ----------------------------
 DROP VIEW IF EXISTS `v_fail_history`;
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%`  SQL SECURITY INVOKER VIEW `v_fail_history` AS SELECT
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY INVOKER  VIEW `v_fail_history` AS SELECT
 fault_history.fh_id,
 fault_history.fh_adduser,
 fault_history.ptype_id,
@@ -178,7 +180,6 @@ INNER JOIN fail_system ON fault_history.system_id = fail_system.system_id
 INNER JOIN plane_type ON fault_history.ptype_id = plane_type.ptype_id
 INNER JOIN time_point ON fault_history.tpoint_id = time_point.tpoint_id
 INNER JOIN user_info ON fault_history.fh_adduser = user_info.user_id ;
-
 -- -----------------------------------
 -- 重置数据表
 -- -----------------------------------

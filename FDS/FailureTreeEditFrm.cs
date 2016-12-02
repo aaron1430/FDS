@@ -119,7 +119,7 @@ namespace fds
             Model.failure_tree editFtModel = new Model.failure_tree();
             editFtModel.ft_id = editModel.ft_id;
             editFtModel.ft_adduser = editModel.ft_adduser;
-            editFtModel.ft_caseid = ftBll.createCaseID(ftBll.getMaxCaseID());
+            editFtModel.ft_caseid = editModel.ft_caseid;
             editFtModel.ft_addtime = editModel.ft_addtime;
             editFtModel.ft_keywd = txtKeyWds.Text.Trim();
             editFtModel.ptype_id = plnTypIdLst[cmbPlaneType.SelectedIndex];
